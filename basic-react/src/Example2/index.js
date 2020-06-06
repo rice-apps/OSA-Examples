@@ -2,12 +2,12 @@ import React, { useContext, useState } from 'react';
 
 const CounterContext = React.createContext(1);
 
-const Counter2 = (props) => {
+const Counter2 = () => {
     const { get } = useContext(CounterContext);
     return (<h1>{get}</h1>);
 }
 
-const Counter = (props) => {
+const Counter = () => {
     return (<Counter2 />);
 }
 
