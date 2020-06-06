@@ -1,6 +1,7 @@
 # Basic React Examples
 This folder contains examples with basic React concepts. See the following list for a comprehensive list of examples:
 1. Example1: this one shows how state & lifecycle methods can be transformed into useState and useEffect hooks. Much cleaner code and much less verbose!
+2. Example2: this one shows how you can use Context to avoid prop drilling.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
