@@ -1,11 +1,13 @@
 import React from 'react';
-import NavigationBar from './components/navBar';
+import NavigationBar from './components/NavBar';
+import Routes from './components/Routes';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <NavigationBar />
-    </div>
+      <Routes />
+    </React.Fragment>
   );
 }
 
